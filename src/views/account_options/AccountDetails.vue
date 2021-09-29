@@ -1,0 +1,58 @@
+<template>
+        <div class="tab-pane fade" id="account-tab" role="tabpanel" aria-labelledby="account-nav">
+            <h4>Account Details</h4>
+                    <div class="row">
+                                    <div class="col-md-6">
+                                        <input class="form-control" type="text" placeholder="First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" type="text" placeholder="Last Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" type="text" placeholder="Mobile">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" placeholder="Address">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn">Update Account</button>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <h4>Password change</h4>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="password" placeholder="Current Password">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" type="text" placeholder="New Password">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" type="text" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn">Save Changes</button>
+                                    </div>
+                                </div>
+                            </div>
+</template>
+
+<script>
+export default {
+  props: 
+  {
+    id: 
+    {
+      type: String,
+      required: true
+    }
+  }
+}
+</script>
+
+<style> 
+
+</style>
