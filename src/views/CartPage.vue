@@ -22,7 +22,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img src="../assets/post-photo1.png" alt="Image"></a>
+                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -40,7 +40,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img src="../assets/post-photo2.png" alt="Image"></a>
+                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -58,7 +58,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img src="../assets/post-photo3.png" alt="Image"></a>
+                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -76,7 +76,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img src="../assets/post-photo4.png" alt="Image"></a>
+                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -94,7 +94,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img src="../assets/post-photo5.png" alt="Image"></a>
+                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -149,12 +149,10 @@
 
 <script>
 export default {
-      name: 'Cartpage',
-  props: {
-  }
+
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

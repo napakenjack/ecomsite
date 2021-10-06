@@ -199,9 +199,7 @@
 
 <script>
 export default {
-  name: 'Checkout',
-  props: {
-  }
+    
 }
 </script>
 

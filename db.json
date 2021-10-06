@@ -1,0 +1,78 @@
+{
+  "products":[
+  {
+    "image": "src/assets/post-photo1.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T1",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo2.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T2",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo3.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T3",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo4.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T4",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo5.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T5",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo6.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T6",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo7.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T7",
+    "avaible": true
+  },
+  {
+    "image": "src/assets/post-photo8.png",
+    "name": "Electro-product",
+    "price": "100",
+    "article": "T8",
+    "avaible": true
+  }
+  ],  
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+  
+}

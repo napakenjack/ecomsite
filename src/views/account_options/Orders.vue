@@ -1,5 +1,5 @@
 <template>
-        <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
+        <div class="tab-pane">
                            <div class="table-responsive">
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
@@ -45,15 +45,10 @@
 
 <script>
 export default {
-      props: {
-    id: {
-      type: String,
-      required: true
-    }
-  }
+
 }
 </script>
 
-<style lang="less" scoped>
+<style>
 
 </style>

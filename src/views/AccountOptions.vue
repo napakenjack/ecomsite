@@ -5,14 +5,13 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="dashboard-nav" data-toggle="pill" href="#" role="tab"><component v-bind:is="currentTabComponent"></component>
-Dashboard</a>
-                            <a class="nav-link" id="orders-nav" data-toggle="pill" href="/orders-tab" role="tab"><i class="fa fa-shopping-bag"></i>Orders</a>
-                            <a class="nav-link" id="payment-nav" data-toggle="pill" href="/payment-tab" role="tab"><i class="fa fa-credit-card"></i>Payment Method</a>
-                            <a class="nav-link" id="address-nav" data-toggle="pill" href="/address-tab" role="tab"><i class="fa fa-map-marker-alt"></i>Address</a>
-                            <a class="nav-link" id="account-nav" data-toggle="pill" href="/account-tab" role="tab"><i class="fa fa-user"></i>Account Details</a>
-                            <a class="nav-link" href=""><i class="fa fa-sign-out-alt"></i>Logout</a>
+                        <div class="nav flex-column nav-pills">
+                            <router-link to="/my-account/dashboard"><a class="nav-link">Dashboard</a></router-link>
+                            <router-link to="/my-account/orders"><a class="nav-link" >Orders</a></router-link>
+                            <router-link to="/my-account/payment-method"><a class="nav-link">Payment Method</a></router-link>
+                            <router-link to="/my-account/adress"><a class="nav-link">Address</a></router-link>
+                            <router-link to="/my-account/account-details"><a class="nav-link" >Account Details</a></router-link>
+                            <router-link to="/"><a class="nav-link">Logout</a></router-link>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -25,17 +24,24 @@ Dashboard</a>
         </div>
 </template>
 
+
+
+
+
 <script>
 
 
 
+
+
 export default {
-  name: 'Account',
-  props: {
-  }
+
+
 }
+
+
 </script>
 
-<style scoped>
+<style>
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-        <div class="tab-pane fade" id="address-tab" role="tabpanel" aria-labelledby="address-nav">
+        <div class="tab-pane">
             <h4>Address</h4>
                 <div class="row">
                     <div class="col-md-6">
@@ -20,15 +20,10 @@
 
 <script>
 export default {
-  props: {
-    id: {
-      type: String,
-      required: true
-    }
-  }
+
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

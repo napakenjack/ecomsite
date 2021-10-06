@@ -1,22 +1,18 @@
 <template>
-     <div class="tab-pane fade show active" id="dashboard-tab" role="tabpanel" aria-labelledby="dashboard-nav">
+     <div class="tab-pane">
          <h4>Dashboard</h4>
         <p>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
+        </p>
      </div>
 </template>
 
 <script>
 export default {
-      props: {
-    id: {
-      type: String,
-      required: true
-    }
-  }
+  
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
