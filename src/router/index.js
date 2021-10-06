@@ -5,6 +5,7 @@ import Product from '../views/ProductPage.vue'
 import CheckOut from '../views/CheckOut.vue'
 import Cart from '../views/CartPage.vue'
 import AccountOptions from '../views/AccountOptions.vue'
+/*
 import PaymentMethod from '../views/account_options/paymentmethod.vue'
 import DashBoard from '../views/account_options/dashBoard.vue'
 import Orders from '../views/account_options/orders.vue'
@@ -13,7 +14,7 @@ import AccountDetails from '../views/account_options/accountdetails.vue'
 import ProductInfo from '../views/comments/product-info.vue'
 import ProductReview from '../views/comments/product-review.vue'
 import ProductSpec from '../views/comments/product-specification.vue'
-
+*/
 
 Vue.use(VueRouter)
 
@@ -28,7 +29,7 @@ const routes = [
     path: '/product-page',
     name: 'Product',
     component: Product,
-    children: [
+   /* children: [
       {
         path: '/product-page/product-info',
         name: 'ProductInfo',
@@ -44,7 +45,7 @@ const routes = [
         name: 'Specifications',
         component: ProductSpec,
       },
-    ]
+    ]*/
   },
   {
     path: '/check-out',
@@ -60,7 +61,7 @@ const routes = [
     path: '/my-account',
     name: 'Account',
     component: AccountOptions,
-    children: [
+   /* children: [
       {
         path: '/my-account/account-details',
         name: 'AccountDetails',
@@ -86,7 +87,7 @@ const routes = [
         name: 'PaymentMethod',
         component: PaymentMethod,
       },  
-    ]
+    ]*/
   },  
 
 

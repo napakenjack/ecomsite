@@ -6,9 +6,9 @@
         <router-link to="/products"><img src="post-photo2.png" type="image"></router-link>
       </div>
      </div>
-     <div class="game-genre offline">靴</div>
-     <div class="content-name">Name</div>
-     <div class="online-info">購入数<span class="seperate game-seperate">価格:</span></div>
+     <div class="game-genre online">{{product_data.category}}</div>
+     <div class="content-name">{{product_data.name}}</div>
+     <div class="online-info">価格:<span class="seperate game-seperate"></span>{{product_data.price}}</div>
     </div>
 </div>
 </template>
