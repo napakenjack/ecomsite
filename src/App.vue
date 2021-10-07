@@ -1,14 +1,13 @@
 <template>
   <div class="display-container">
- <div class="sidebar" >
-<SideBar />
+    <div class="sidebar" >
+      <SideBar />
+    </div>  
+
+        <HeadBar />
+
+          <router-view />
   </div>  
-
-<HeadBar />
-
-<router-view />
-  </div>
-  
 </template>
 
 <script>

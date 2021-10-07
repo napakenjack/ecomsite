@@ -1,12 +1,12 @@
 <template>
-    <div class="games">
-    <CatalogCard 
+  <div class="games">
+      <CatalogCard 
           v-for="product in PRODUCTS"
           :key="product.article"
           :product_data="product"
           @sendArticle="showChildArticleInConsole"
     />
-    </div>
+  </div>
 </template>
 
 
@@ -18,19 +18,19 @@ import {mapActions, mapGetters} from 'vuex'
 
 export default {
 components:{
-  CatalogCard,
-},
-props:{
+    CatalogCard,
+    },
+      props:{
 
-},
-data(){
-return{}
-},
-computed:{
-  ...mapGetters([
-    'PRODUCTS'
-  ])
-},
+      },
+      data(){
+        return{}
+      },
+      computed:{
+        ...mapGetters([
+            'PRODUCTS'
+          ])
+    },
 
     methods: {
       ...mapActions([
