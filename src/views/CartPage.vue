@@ -22,7 +22,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
+                                                    <a><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -40,7 +40,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
+                                                    <a><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -58,7 +58,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
+                                                    <a><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -76,7 +76,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
+                                                    <a><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>
@@ -94,7 +94,7 @@
                                         <tr>
                                             <td>
                                                 <div class="img">
-                                                    <a href="#"><img :src="'../assets/' + product_data.image" alt="Image"></a>
+                                                    <a><img :src="'../assets/' + product_data.image" alt="Image"></a>
                                                     <p>商品名</p>
                                                 </div>
                                             </td>

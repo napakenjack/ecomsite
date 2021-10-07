@@ -1,9 +1,10 @@
 <template>
     <div class="games">
     <CatalogCard 
-          v-for="product in products"
+          v-for="product in PRODUCTS"
           :key="product.article"
           :product_data="product"
+          @sendArticle="showChildArticleInConsole"
     />
     </div>
 </template>
@@ -12,6 +13,9 @@
 
 <script>
 import CatalogCard from './CatalogCard.vue'
+import {mapActions, mapGetters} from 'vuex'
+
+
 export default {
 components:{
   CatalogCard,
@@ -20,44 +24,27 @@ props:{
 
 },
 data(){
-  return{
-    products: [
-      {
-        image: "./assets/post-photo1.png",
-        name: "T-Shirt",
-        category: "Clothes",
-        price: 100,
-        article: "T1",
-        avaible: true,
-      },
-            {
-        image: "./assets/post-photo2.png",
-        name: "NoteBook",
-        category: "Electronic",
-        price: 100,
-        article: "T2",
-        avaible: true,
-      },
-            {
-        image: "./assets/post-photo3.png",
-        name: "Cream",
-        category: "Cosmetic",
-        price: 100,
-        article: "T3",
-        avaible: true,
-      },
-            {
-        image: "./assets/post-photo4.png",
-        name: "Bread",
-        category: "Food",
-        price: 100,
-        article: "T4",
-        avaible: true,
-      },
+return{}
+},
+computed:{
+  ...mapGetters([
+    'PRODUCTS'
+  ])
+},
 
-    ]
-  }
-}
+    methods: {
+      ...mapActions([
+        'GET_PRODUCTS_FROM_API'
+      ]),
+
+      showChildArticleInConsole(data){
+        console.log(data)
+      }
+    },
+
+    mounted(){
+      this.GET_PRODUCTS_FROM_API()
+    }
 }
 
 

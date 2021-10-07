@@ -40,8 +40,8 @@
                         </div> 
                 </div>
                         <div class="action anim" style="--delay: .6s">
-                            <button class="btn" @click="sendDataToParent">カードに追加</button>
-                            <button class="btn" @click="sendDataToParent">今すぐ購入</button>
+                            <button class="btn">カードに追加</button>
+                            <button class="btn">今すぐ購入</button>
                         </div>
                     </div>
                 </div>
