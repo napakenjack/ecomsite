@@ -1476,7 +1476,8 @@ body:before {
     
     .nav,
     .nav .navbar {
-        background: #000000 !important;
+      align-items: center;
+      align-content: space-around;
     }
     
     .nav a.nav-link {
@@ -1485,6 +1486,9 @@ body:before {
     
     .nav .dropdown-menu {
         box-shadow: none;
+    }
+    .my-account{
+      width: 80% !important;
     }
 }
 
@@ -3499,7 +3503,7 @@ p{
 
 .my-account {
   position: relative;
-  width: 100%;
+  width: 82vw;
   background-color: white;
   padding: 40px;
   margin: 20px;
