@@ -8,7 +8,7 @@ let store = new Vuex.Store({
     state:{
         products:[]
     },
-    mutation:{
+    mutations:{
         SET_PRODUCTS_TO_STATE: (state, products) =>{
             state.products = products;
         }

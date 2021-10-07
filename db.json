@@ -1,57 +1,57 @@
 {
   "products":[
   {
-    "image": "src/assets/post-photo1.png",
-    "name": "Electro-product",
+    "image": "post-photo1.png",
+    "name": "Electronic",
     "price": "100",
     "article": "T1",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo2.png",
-    "name": "Electro-product",
+    "image": "post-photo2.png",
+    "name": "Food",
     "price": "100",
     "article": "T2",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo3.png",
-    "name": "Electro-product",
+    "image": "post-photo3.png",
+    "name": "Clothes",
     "price": "100",
     "article": "T3",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo4.png",
-    "name": "Electro-product",
+    "image": "post-photo4.png",
+    "name": "Furniture",
     "price": "100",
     "article": "T4",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo5.png",
-    "name": "Electro-product",
+    "image": "post-photo5.png",
+    "name": "Cosemitcs",
     "price": "100",
     "article": "T5",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo6.png",
-    "name": "Electro-product",
+    "image": "post-photo6.png",
+    "name": "Daily Producst",
     "price": "100",
     "article": "T6",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo7.png",
-    "name": "Electro-product",
+    "image": "post-photo7.png",
+    "name": "Games",
     "price": "100",
     "article": "T7",
     "avaible": true
   },
   {
-    "image": "src/assets/post-photo8.png",
-    "name": "Electro-product",
+    "image": "post-photo8.png",
+    "name": "Movies",
     "price": "100",
     "article": "T8",
     "avaible": true

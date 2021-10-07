@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.h7 {
+ font-size: 0.93rem;
+}
+
 body {
   color: #353535;
   font-family: 'Open Sans', sans-serif;
@@ -692,7 +696,7 @@ body:before {
 
 .game-1 {
   position: relative;
-  background-color: #ffffff;
+  background-color: #e8e8ea;
   border-radius: 20px;
   overflow: hidden;
   transition: 0.4s;
@@ -716,7 +720,7 @@ body:before {
 }
 .online-info {
   font-size: 12px;
-  padding: 12px 20px 20px;
+  padding: 10px 20px 10px;
   background-color: transparent;
   position: relative;
 }
@@ -729,9 +733,13 @@ body:before {
 
 .add-to-cart {
   transition: 0.3s;
-  padding: 0px 20px 0px;
+  margin: 1vw;
   display: inline-flex;
   position: relative;
+  border-radius: 15px;
+  border-color: transparent;
+  background-color: #a5b0ff;
+  z-index: 999;
 }
 
 
