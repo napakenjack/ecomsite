@@ -566,10 +566,14 @@ pre code {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
-  padding-right: 15px;
+  padding-right: 30px;
   padding-left: 15px;
+  padding-top: 1vw;
   margin-right: auto;
   margin-left: auto;
+  background-color: white;
+  overflow: overlay;
+  border-radius: 1vw;
 }
 
 @media (min-width: 576px) {
@@ -7139,7 +7143,7 @@ button.bg-dark:focus {
 
 .flex-column {
   -ms-flex-direction: column !important;
-  flex-direction: column !important;
+  flex-direction: column;
 }
 
 .flex-row-reverse {

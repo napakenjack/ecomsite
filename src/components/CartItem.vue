@@ -105,15 +105,18 @@ button{
 
 .tab-pane{
     display: flex;
-    justify-content: space-between;
-    width: 55vw;
-    align-content: center;
+    width: 100%;
     margin: 1vw;
     box-shadow: #b7ccc5 0px 0px 9px;
     border-radius: 1vw;
     padding: 1vw;
     transition: .4s;
     cursor: pointer;
+    align-items: center;
+    text-align: start;
+    gap: 2vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tab-pane:hover{
