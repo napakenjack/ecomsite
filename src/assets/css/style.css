@@ -343,6 +343,7 @@ body:before {
   flex-direction: column;
   flex-grow: 1;
   margin-top: 9vh;
+  overflow: auto;
 }
 
 .header {
@@ -3508,6 +3509,7 @@ p{
   padding: 40px;
   margin: 20px;
   border-radius: 20px;
+  
 }
 
 .my-account .nav.nav-pills .nav-link {

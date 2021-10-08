@@ -5,7 +5,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="nav flex-column nav-pills">
+                        <div class="nav flex-column nav-pills" style="position: fixed;">
                             <router-link to="/my-account/dashboard">
                             <a class="nav-link">Dashboard</a>
                             </router-link>
