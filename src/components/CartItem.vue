@@ -6,7 +6,11 @@
                         <p>{{cart_item_data.price}}</p>
                         <p>{{cart_item_data.article}}</p>
                     </div>
-            <div class="delete-button">
+                    <div class="product_quantity">
+                        Quantity:
+                        {{cart_item_data.quantity}}
+                        </div>
+            <div class="delete-button" @click="deleteFromCart">
                 <button>
                     Delete
                 </button>
@@ -82,9 +86,12 @@ export default {
             
         }
     },
-    mounted() {
-        this.$set(this.cart_item_data, 'quantity', 1)
+    methods:{
+        deleteFromCart(){
+            this.$emit('deleteFromCart')
+        }
     },
+
     
     computed:{
 

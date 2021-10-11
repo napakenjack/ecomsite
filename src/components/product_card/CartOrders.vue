@@ -1,9 +1,10 @@
 <template>
     <div>
         <CartItem                  
-        v-for="item in cart_data"
+        v-for="(item, index) in cart_data"
         :key="item.article"
         :cart_item_data="item"
+        @deleteFromCart="deleteFromCart(index)"
         />
 </div>
 
@@ -13,6 +14,7 @@
 
 <script>
 import CartItem from '../CartItem.vue'
+import{mapActions} from 'vuex'
 export default {
     components:{
     CartItem,
@@ -30,6 +32,14 @@ export default {
         return{}
     },
     computed:{
+    },
+    methods:{
+        ...mapActions([
+            'DELETE_FROM_CART'
+        ]),
+        deleteFromCart(index){
+            this.DELETE_FROM_CART(index)
+        }
     }
 }
 </script>
